@@ -1,0 +1,9 @@
+# Renders and logs stay out: the mp4s are large and the logs are box-local.
+*.mp4
+*.png
+logs/
+out/
+__pycache__/
+# ...except the frames that are the quality evidence in RESULTS.md section 6.
+*.jpg
+!samples/*.jpg
